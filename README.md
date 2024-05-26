@@ -13,3 +13,9 @@ I'm attaching here video for what i did in this project:
 
 https://github.com/BheemNaragonda/uber-react-websit/assets/113458825/24f07319-d6d3-4839-b4cd-f589f8b5d01f
 
+I have deployed this site in netifly by generating build using npm run build command
+
+if you want to access you can visit this below site:
+https://funny-klepon-c2398a.netlify.app/
+
+
