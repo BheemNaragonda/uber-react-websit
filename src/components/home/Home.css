@@ -1,0 +1,474 @@
+*{
+    font-family: "Arial";
+}
+
+header {
+    background-color: #050000; /* Change the background color */
+    color: #fff; /* Change the text color */
+    padding: 20px; /* Add some padding */
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading1-part1{
+    display: flex;
+}
+
+.uber-text{
+    margin-right: 20px;
+    font-size: 19px;
+}
+
+
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add some space between menu items */
+    font-size: small;
+}
+
+.logout-button{
+    border-style: none;
+}
+
+.about-dropdown{
+    background-color:transparent;
+    color: white;
+    border: 0px;
+    outline: none;
+    
+}
+
+.about-dropdown option{
+    color: #050000;
+}
+
+.globe-icon{
+    color: #fff;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+.mr-15{
+    margin-right: 15px !important;
+}
+
+.mr-100{
+    margin-right: 100px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mr-88{
+    margin-right: 88px;
+}
+
+.mr-200{
+    margin-right: 200px;
+}
+
+
+.mr-703{
+    margin-right:703px;
+}
+
+.mr-548{
+    margin-right: 548px;
+}
+
+.mr-688{
+    margin-right: 688px;
+}
+
+.mr-774{
+    margin-right: 774px;
+}
+
+.mr-767{
+    margin-right: 767px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.pb-5{
+    padding-bottom: 5px;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
+.borderBottom{
+    border-bottom: 1px solid rgb(241, 234, 234);
+
+}
+
+.d-flex{
+    display: flex;
+}
+
+.sign-up-element{
+    background-color: #ffffffe9;
+    color: #050000d0;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: 9px;
+}
+
+.second-header{
+    background-color: #fff;
+    color: #050000;
+    top: 0;
+    left: 0;
+}
+
+
+.second-header.sticky {
+    position: sticky;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+
+.ride-text{
+    font-weight: bold;
+}
+
+.ride-list{
+    color: #0000007a;
+    font-size: small;
+}
+
+.lang-icon{
+    color: white;
+    margin-right: 5px;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    padding: 20px 0px 0px 0px;
+}
+
+.banner-text{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.banner-text-1{
+    font-size: 15px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px; /* Adjust the position of the icon */
+    color: gray; /* Adjust the color of the icon */
+}
+
+.banner-inputfield{
+
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f6f6;
+  }
+
+  .button{
+    background-color: #000000;
+    color: #eeeded;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .button-schedule{
+    background-color:#dddbdb ;
+    color: #000000;
+  }
+
+  .banner-text-container{
+    width: 350px;
+  }
+
+  .banner-image{
+    width: 500px;
+    height: 500px;
+  }
+
+.ride-image{
+    width: 450px;
+    height: 250px;
+}
+
+.ride-with-friends-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+}
+
+.ride-with-friends-text-container{
+    width: 400px;
+}
+
+.ride-learn-more{
+    color: #444444fb;
+}
+
+.ride-with-friends-text{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ride-with-friends-text-1{
+    font-size: 15px;
+}
+
+.uber-features-section{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.uber-features-cards{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.uber-features-card{
+    width: 290px;
+    margin-right: 60px;
+}
+
+.uber-features-text{
+    font-size: 30px;
+}
+
+.uber-features-card-image{
+    width: 300px;
+}
+
+.uber-features-card-title{
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.uber-features-card-description{
+    font-size: 13px;
+    color: rgb(48, 47, 47)
+}
+
+.uber-features-card-button{
+    background-color: #000000;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.business-solution-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    background-color: #000000;
+    color: white;
+}
+
+.anchor-color{
+    color: #ccc;
+}
+
+
+
+.frequent-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.frequent-ulist{
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.apps-container{
+    background-color: #f8f6f6;
+    display: flex;
+    padding: 50px;
+    
+}
+
+.app-div-position{
+    position: relative;
+    left: 180px;
+}
+
+.apps-text-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    padding: 20px;
+
+}
+
+.apps-text{
+    margin-right: 40px;
+}
+
+.apps-text-p1{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.apps-text-p2{
+    font-size: 14px;
+}
+
+.QR-image{
+    width: 130px;
+    margin-right: 20px;
+}
+
+.sign-up-container{
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.sign-up-text-and-icon{
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+.sign-up-text1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sign-up-border-bottom{
+    border-bottom: 1px solid black;
+    width: 486px;
+}
+
+.sign-up-text2{
+    font-size: 11px;
+}
+
+.footer-section{
+    background-color: #000000;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.custom-top-container{
+    
+    margin-left: 220px;
+    
+}
+
+.custom-top-container h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.custom-top-container p{
+    font-size: medium;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+
+  }
+
+  .custom-list li {
+    margin-bottom: 10px; /* Adjust this value as needed */
+  }
+  
+  .custom-list li:first-child {
+    font-weight: bold;
+  }
+
+  .custom-list li:not(:first-child) {
+    font-size: 12px; /* Adjust this value as needed */
+  }
+
+  .icon-text{
+    font-size: 14px;
+  }
+
+  .icons-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .images-container{
+    margin-left: 225px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .footer-last-section{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+
+  .footer-last-section p{
+    margin-right: 370px;
+  }
+
+  .footer-last-section ul{
+    list-style-type: none;
+    display: flex;
+  }
+
+  .footer-last-section ul li{
+    margin-right: 25px;
+  }

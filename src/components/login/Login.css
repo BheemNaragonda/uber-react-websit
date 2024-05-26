@@ -1,0 +1,106 @@
+.login-page{
+    background-color: black;
+    color: white;
+    
+}
+
+.login-button{
+    width: 60%;
+    background-color: white !important;
+    
+}
+
+.login-center{
+    display: flex;
+    justify-content: center;
+}
+
+.email-error{
+    color: red;
+}
+
+
+/* .login-section{
+    background-color: white;
+    color: #000000;
+} */
+
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+}
+
+.banner-text{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.banner-text-1{
+    font-size: 15px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px; /* Adjust the position of the icon */
+    color: gray; /* Adjust the color of the icon */
+}
+
+.banner-inputfield{
+
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f6f6;
+  }
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f6f6;
+  }
+
+  .button{
+    background-color: #000000;
+    color: #eeeded;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .button-schedule{
+    background-color:#dddbdb ;
+    color: #000000;
+  }
+
+  .banner-text-container{
+    width: 350px;
+  }
+
+  .banner-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+  }
