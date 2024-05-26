@@ -18,4 +18,8 @@ I have deployed this site in netifly by generating build using npm run build com
 if you want to access you can visit this below site:
 https://funny-klepon-c2398a.netlify.app/
 
+login credentials:
+email:bheem@gmail.com
+password:12345
+
 
